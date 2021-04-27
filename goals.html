@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mark La Torre's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-me.html">About me </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="goals.html">Goals</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <div class="container-fluid" style="padding: 50px">
+        <h3>This is Arkabia</h3>
+        <h6>The reason I'm studing Full Stack Web Development, is for me to be able to understand programming concepts in order to manage developers. I'm creating a prototype in Figma of a webpage called Arkabia.</h6>
+        <h6>Arkabia's goal is to make foreign trade available for everyone by creating a platform that brings together all the actors who participate in the process, let it be importation or exportation, and make the process fluid and intuitive among them.  Imagine a webpage that tells you step by step what you have to do in order to bring a product from another country to yours, minimizing the risk in every corner.</h6>
+        <div class="row">
+          <div class="column" style="padding-top: 10px; padding-left: 20px">
+              <button type="button" class="btn btn-outline-dark" onclick="showLanding()">See landing page</button>
+          </div>
+          <div class="column" style="padding-top: 10px; padding-left: 20px">
+              <button type="button" class="btn btn-outline-dark" onclick="showDashboard()">See dashboard</button>
+          </div>
+          <div class="column" style="padding-top: 10px; padding-left: 20px">
+              <button type="button" class="btn btn-outline-dark" onclick="showChatroom()">See the chat room</button>
+          </div>
+         </div>
+    </div>
+
+    <div class="container-fluid" style="text-align: center; padding: 50px">
+      <img id="picture" style="width: 80%; height: 80%"></img>
+    </div>
+
+     <script src="./portfolio.js"></script>
+
+    <footer class="footer">
+        <div class="container" >
+            <h8 style="color: rgb(255, 255, 255)">2021 Made by Markyño D. La Torre for the Full Stack Web Development Course from MITxPro </h8>
+          </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
